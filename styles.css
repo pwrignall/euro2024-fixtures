@@ -3,12 +3,6 @@
   --mid-grey: hsl(0, 0%, 50%);
 }
 
-html {
-  font-size: 85%;
-  padding: 0;
-  margin: 0;
-}
-
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
@@ -31,15 +25,10 @@ h2 {
   color: var(--mid-grey);
 }
 
-ul {
-  width: 80%;
-}
-
 ul li {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 1.5em;
   align-items: baseline;
 }
 

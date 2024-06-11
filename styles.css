@@ -7,10 +7,6 @@ body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h1 {
-  font-size: 1.2rem;
-}
-
 h1,
 h2 {
   text-align: left;
@@ -19,7 +15,6 @@ h2 {
 
 h2 {
   font-weight: 400;
-  font-size: 1rem;
   background-color: var(--off-white);
   text-transform: uppercase;
   color: var(--mid-grey);
@@ -40,7 +35,6 @@ ul li span {
 span.venue {
   text-transform: uppercase;
   color: var(--mid-grey);
-  font-size: 0.8rem;
 }
 
 span.team1 {
@@ -60,7 +54,6 @@ span.stage {
   text-align: right;
   text-transform: uppercase;
   color: var(--mid-grey);
-  font-size: 0.8rem;
 }
 
 span.extra-info {

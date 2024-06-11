@@ -1,0 +1,47 @@
+h1,
+h2 {
+  text-align: left;
+}
+
+ul {
+  width: 80%;
+}
+
+ul li {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1.5em;
+  /* background-color: lightslategray; */
+}
+
+ul li span {
+  list-style-type: none;
+  flex: 1;
+}
+
+span.venue {
+  /* background-color: aqua; */
+}
+
+span.team {
+  /* background-color: lightgreen; */
+}
+
+span.team1 {
+  text-align: right;
+}
+
+span.team2 {
+  text-align: left;
+}
+
+span.time-score {
+  /* background-color: lightcoral; */
+  text-align: center;
+}
+
+span.stage {
+  /* background-color: lightblue; */
+  text-align: right;
+}

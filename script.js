@@ -514,7 +514,7 @@ const fixtures = [
         venue: "Dortmund",
         time: "19:00",
         score: "0-0",
-        extraInfo: "hghfhgf",
+        extraInfo: "",
       },
     ],
   },
@@ -584,12 +584,13 @@ fixtures.forEach((dateItem) => {
     fixturesList.appendChild(matchDiv);
     const matchInfoDiv = document.createElement("div");
     matchInfoDiv.className = "match-info";
+    const matchText = document.createElement("p");
     const stageSpan = document.createElement("span");
     stageSpan.className = "stage";
     stageSpan.textContent = match.stage;
-    matchInfoDiv.appendChild(stageSpan);
+    matchText.appendChild(stageSpan);
 
-    matchInfoDiv.innerHTML += ` <span class="team team1" data-country="${match.team1.toLowerCase()}">${
+    matchText.innerHTML += ` <span class="team team1" data-country="${match.team1.toLowerCase()}">${
       match.team1
     }</span> `;
     const timeOrScoreSpan = document.createElement("span");
@@ -598,17 +599,17 @@ fixtures.forEach((dateItem) => {
     timeOrScoreSpan.textContent = dateTime
       .toLocaleTimeString("en-GB")
       .slice(0, -3);
-    matchInfoDiv.appendChild(timeOrScoreSpan);
+    matchText.appendChild(timeOrScoreSpan);
 
-    matchInfoDiv.innerHTML += ` <span class="team team2" data-country="${match.team2.toLowerCase()}">${
+    matchText.innerHTML += ` <span class="team team2" data-country="${match.team2.toLowerCase()}">${
       match.team2
     }</span>`;
 
     const venueSpan = document.createElement("span");
     venueSpan.className = "venue";
     venueSpan.textContent = match.venue;
-    matchInfoDiv.appendChild(venueSpan);
-
+    matchText.appendChild(venueSpan);
+    matchInfoDiv.appendChild(matchText);
     matchDiv.appendChild(matchInfoDiv);
     if (match.extraInfo) {
       const extraInfo = document.createElement("p");

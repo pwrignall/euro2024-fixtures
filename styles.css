@@ -1,15 +1,52 @@
 :root {
-  --off-white: hsl(0, 0%, 98%);
-  --mid-grey: hsl(0, 0%, 40%);
-  --light-grey: hsl(0, 0%, 60%);
+  --bg: hsl(260, 10%, 10%);
+  --bg-accent: hsl(260, 10%, 12%);
+  --fg-accent: hsl(260, 10%, 60%);
+  --fg: hsl(260, 10%, 80%);
+  --bold-color: hsl(260, 100%, 50%);
+  --bold-color-accent: hsl(260, 50%, 60%);
+}
+
+a {
+  color: var(--bold-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--bold-color-accent);
 }
 
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+header {
+  text-align: center;
+  background-color: var(--bg-accent);
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--fg-accent);
+}
+
+#fixtures-list {
+  width: 720px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--bg-accent);
+  border-top: 1px solid var(--fg-accent);
+  margin: 40px 0 0 0;
+  padding-bottom: 10px;
 }
 
 h1 {
   font-size: 1.6rem;
+  margin: 0;
+  padding: 10px 0;
 }
 
 h2 {
@@ -17,7 +54,8 @@ h2 {
   text-align: center;
   font-size: 1rem;
   text-transform: uppercase;
-  color: var(--light-grey);
+  color: var(--fg-accent);
+  margin: 2rem 0 0.6rem 0;
 }
 
 @media only screen and (max-width: 720px) {
@@ -26,19 +64,20 @@ h2 {
   }
 }
 
-.match-info {
+.match-info p {
   display: flex;
   justify-content: center;
   align-items: baseline;
+  margin: 0;
 }
 
-.match-info span {
+.match-info p span {
   list-style-type: none;
   flex: 1 1 0;
 }
 
 span.venue {
-  color: var(--mid-grey);
+  color: var(--fg-accent);
   font-size: 0.9rem;
 }
 
@@ -61,7 +100,7 @@ span.time-score {
 span.stage {
   text-align: right;
   text-transform: uppercase;
-  color: var(--mid-grey);
+  color: var(--fg-accent);
   font-size: 0.9rem;
 }
 
@@ -69,6 +108,6 @@ p.extra-info {
   text-align: center;
   font-style: italic;
   margin: 0;
-  color: var(--mid-grey);
+  color: var(--fg-accent);
   font-size: 0.9rem;
 }

@@ -1,40 +1,39 @@
 :root {
   --off-white: hsl(0, 0%, 98%);
-  --mid-grey: hsl(0, 0%, 50%);
+  --mid-grey: hsl(0, 0%, 40%);
+  --light-grey: hsl(0, 0%, 60%);
 }
 
 body {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-h1,
-h2 {
-  text-align: left;
-
+h1 {
+  font-size: 1.6rem;
 }
 
 h2 {
   font-weight: 400;
-  background-color: var(--off-white);
+  text-align: center;
+  font-size: 1rem;
   text-transform: uppercase;
-  color: var(--mid-grey);
+  color: var(--light-grey);
 }
 
-ul li {
+.match-info {
   display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: baseline;
 }
 
-ul li span {
+.match-info span {
   list-style-type: none;
-  flex: 1;
+  flex: 1 1 0;
 }
 
 span.venue {
-  text-transform: uppercase;
   color: var(--mid-grey);
+  font-size: 0.9rem;
 }
 
 span.team1 {
@@ -50,22 +49,20 @@ span.team2 {
 span.time-score {
   text-align: center;
   font-weight: 700;
+  flex: 1 0.5 0;
 }
 
 span.stage {
   text-align: right;
   text-transform: uppercase;
   color: var(--mid-grey);
+  font-size: 0.9rem;
 }
 
-span.extra-info {
-  text-align: left;
+p.extra-info {
+  text-align: center;
   font-style: italic;
+  margin: 0;
+  color: var(--mid-grey);
+  font-size: 0.9rem;
 }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-

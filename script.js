@@ -9,7 +9,6 @@ const fixtures = [
         venue: "Munich",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -23,7 +22,6 @@ const fixtures = [
         venue: "Cologne",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Spain",
@@ -32,7 +30,6 @@ const fixtures = [
         venue: "Berlin",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Italy",
@@ -41,7 +38,6 @@ const fixtures = [
         venue: "Dortmund",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -55,7 +51,6 @@ const fixtures = [
         venue: "Hamburg",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Slovenia",
@@ -64,7 +59,6 @@ const fixtures = [
         venue: "Stuttgart",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Serbia",
@@ -73,7 +67,6 @@ const fixtures = [
         venue: "Gelsenkirchen",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -87,7 +80,6 @@ const fixtures = [
         venue: "Munich",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Belgium",
@@ -96,16 +88,14 @@ const fixtures = [
         venue: "Frankfurt",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Austria",
         team2: "France",
         stage: "Group D",
-        venue: "Dusseldorf",
+        venue: "Düsseldorf",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -119,7 +109,6 @@ const fixtures = [
         venue: "Dortmund",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Portugal",
@@ -128,7 +117,6 @@ const fixtures = [
         venue: "Leipzig",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -142,7 +130,6 @@ const fixtures = [
         venue: "Hamburg",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Germany",
@@ -151,7 +138,6 @@ const fixtures = [
         venue: "Stuttgart",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Scotland",
@@ -160,7 +146,6 @@ const fixtures = [
         venue: "Cologne",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -174,7 +159,6 @@ const fixtures = [
         venue: "Munich",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Denmark",
@@ -183,7 +167,6 @@ const fixtures = [
         venue: "Frankfurt",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Spain",
@@ -192,7 +175,6 @@ const fixtures = [
         venue: "Gelsenkirchen",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -203,10 +185,9 @@ const fixtures = [
         team1: "Slovakia",
         team2: "Ukraine",
         stage: "Group E",
-        venue: "Dusseldorf",
+        venue: "Düsseldorf",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Poland",
@@ -215,7 +196,6 @@ const fixtures = [
         venue: "Berlin",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Netherlands",
@@ -224,7 +204,6 @@ const fixtures = [
         venue: "Leipzig",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -238,7 +217,6 @@ const fixtures = [
         venue: "Hamburg",
         time: "13:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Turkey",
@@ -247,7 +225,6 @@ const fixtures = [
         venue: "Dortmund",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Belgium",
@@ -256,7 +233,6 @@ const fixtures = [
         venue: "Cologne",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -270,7 +246,6 @@ const fixtures = [
         venue: "Frankfurt",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Scotland",
@@ -279,7 +254,6 @@ const fixtures = [
         venue: "Stuttgart",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -293,16 +267,14 @@ const fixtures = [
         venue: "Leipzig",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Albania",
         team2: "Spain",
         stage: "Group B",
-        venue: "Dusseldorf",
+        venue: "Düsseldorf",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -316,7 +288,6 @@ const fixtures = [
         venue: "Berlin",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "France",
@@ -325,7 +296,6 @@ const fixtures = [
         venue: "Dortmund",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "England",
@@ -334,7 +304,6 @@ const fixtures = [
         venue: "Cologne",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Denmark",
@@ -343,7 +312,6 @@ const fixtures = [
         venue: "Munich",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -357,7 +325,6 @@ const fixtures = [
         venue: "Frankfurt",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Ukraine",
@@ -366,7 +333,6 @@ const fixtures = [
         venue: "Stuttgart",
         time: "16:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Czechia",
@@ -375,7 +341,6 @@ const fixtures = [
         venue: "Hamburg",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
       {
         team1: "Georgia",
@@ -384,7 +349,6 @@ const fixtures = [
         venue: "Gelsenkirchen",
         time: "19:00",
         score: "",
-        extraInfo: "",
       },
     ],
   },
@@ -394,7 +358,7 @@ const fixtures = [
       {
         team1: "2nd Group A",
         team2: "2nd Group B",
-        stage: "Round of 16",
+        stage: "R16 #1",
         venue: "Berlin",
         time: "16:00",
         score: "",
@@ -403,7 +367,7 @@ const fixtures = [
       {
         team1: "1st Group A",
         team2: "2nd Group C",
-        stage: "Round of 16",
+        stage: "R16 #2",
         venue: "Dortmund",
         time: "19:00",
         score: "",
@@ -417,7 +381,7 @@ const fixtures = [
       {
         team1: "1st Group C",
         team2: "3rd Group D/E/F",
-        stage: "Round of 16",
+        stage: "R16 #3",
         venue: "Gelsenkirchen",
         time: "16:00",
         score: "",
@@ -426,7 +390,7 @@ const fixtures = [
       {
         team1: "1st Group B",
         team2: "3rd Group A/D/E/F",
-        stage: "Round of 16",
+        stage: "R16 #4",
         venue: "Cologne",
         time: "19:00",
         score: "",
@@ -440,8 +404,8 @@ const fixtures = [
       {
         team1: "2nd Group D",
         team2: "2nd Group E",
-        stage: "Round of 16",
-        venue: "Dusseldorf",
+        stage: "R16 #5",
+        venue: "Düsseldorf",
         time: "16:00",
         score: "",
         extraInfo: "",
@@ -449,7 +413,7 @@ const fixtures = [
       {
         team1: "1st Group F",
         team2: "3rd Group A/B/C",
-        stage: "Round of 16",
+        stage: "R16 #6",
         venue: "Frankfurt",
         time: "19:00",
         score: "",
@@ -463,7 +427,7 @@ const fixtures = [
       {
         team1: "1st Group E",
         team2: "3rd Group A/B/C/D",
-        stage: "Round of 16",
+        stage: "R16 #7",
         venue: "Munich",
         time: "16:00",
         score: "",
@@ -472,7 +436,7 @@ const fixtures = [
       {
         team1: "1st Group D",
         team2: "2nd Group F",
-        stage: "Round of 16",
+        stage: "R16 #8",
         venue: "Leipzig",
         time: "19:00",
         score: "",
@@ -486,7 +450,7 @@ const fixtures = [
       {
         team1: "Winner R16 #4",
         team2: "Winner R16 #2",
-        stage: "Quarter-finals",
+        stage: "QF1",
         venue: "Stuttgart",
         time: "16:00",
         score: "",
@@ -495,7 +459,7 @@ const fixtures = [
       {
         team1: "Winner R16 #6",
         team2: "Winner R16 #5",
-        stage: "Quarter-finals",
+        stage: "QF2",
         venue: "Hamburg",
         time: "19:00",
         score: "",
@@ -509,8 +473,8 @@ const fixtures = [
       {
         team1: "Winner R16 #1",
         team2: "Winner R16 #3",
-        stage: "Quarter-finals",
-        venue: "Dusseldorf",
+        stage: "QF3",
+        venue: "Düsseldorf",
         time: "16:00",
         score: "",
         extraInfo: "",
@@ -518,7 +482,7 @@ const fixtures = [
       {
         team1: "Winner R16 #7",
         team2: "Winner R16 #8",
-        stage: "Quarter-finals",
+        stage: "QF4",
         venue: "Berlin",
         time: "19:00",
         score: "",
@@ -530,9 +494,9 @@ const fixtures = [
     date: "2024-07-09",
     fixtures: [
       {
-        team1: "Winner QF #1",
-        team2: "Winner QF #2",
-        stage: "Semi-finals",
+        team1: "Winner QF1",
+        team2: "Winner QF2",
+        stage: "Semi-final",
         venue: "Munich",
         time: "19:00",
         score: "",
@@ -544,13 +508,13 @@ const fixtures = [
     date: "2024-07-10",
     fixtures: [
       {
-        team1: "Winner QF #3",
-        team2: "Winner QF #4",
-        stage: "Semi-finals",
+        team1: "Winner QF3",
+        team2: "Winner QF4",
+        stage: "Semi-final",
         venue: "Dortmund",
         time: "19:00",
-        score: "",
-        extraInfo: "",
+        score: "0-0",
+        extraInfo: "hghfhgf",
       },
     ],
   },
@@ -558,8 +522,8 @@ const fixtures = [
     date: "2024-07-14",
     fixtures: [
       {
-        team1: "Winner SF #1",
-        team2: "Winner SF #2",
+        team1: "Winner SF1",
+        team2: "Winner SF2",
         stage: "Euro 2024 final",
         venue: "Berlin",
         time: "19:00",
@@ -572,7 +536,7 @@ const fixtures = [
 
 const checkbox = document.getElementById("swap-checkbox");
 const timeOrScoreSpans = document.getElementsByClassName("time-score");
-const extraInfoSpans = document.getElementsByClassName("extra-info");
+const matchElements = document.getElementsByClassName("match");
 
 const matches = fixtures.flatMap((dateItem) =>
   dateItem.fixtures.map((match) => ({ ...match, date: dateItem.date }))
@@ -584,14 +548,18 @@ function displayScoresAndExtraInfo() {
       if (matches[i].score !== "") {
         timeOrScoreSpans[i].textContent = matches[i].score;
       }
-      extraInfoSpans[i].textContent = matches[i].extraInfo;
+      if (matches[i].extraInfo) {
+        matchElements[i].lastElementChild.textContent = matches[i].extraInfo;
+      }
     } else {
       const dateTime = new Date(`${matches[i].date}T${matches[i].time}Z`);
       timeOrScoreSpans[i].textContent = dateTime
         .toLocaleTimeString("en-GB")
         .slice(0, -3)
         .replace(",", "");
-      extraInfoSpans[i].textContent = "";
+      if (matches[i].extraInfo) {
+        matchElements[i].lastElementChild.textContent = "";
+      }
     }
   }
 }
@@ -600,7 +568,7 @@ const fixturesList = document.getElementById("fixtures-list");
 
 fixtures.forEach((dateItem) => {
   const date = document.createElement("h2");
-  date.textContent = new Date(dateItem.date)
+  date.textContent = new Date(`${dateItem.date}T14:00Z`)
     .toLocaleDateString("en-GB", {
       weekday: "long",
       year: "numeric",
@@ -609,17 +577,19 @@ fixtures.forEach((dateItem) => {
     })
     .replace(",", "");
   fixturesList.appendChild(date);
-  const ul = document.createElement("ul");
-  fixturesList.appendChild(ul);
 
   dateItem.fixtures.forEach((match) => {
-    const listItem = document.createElement("li");
+    const matchDiv = document.createElement("div");
+    matchDiv.className = "match";
+    fixturesList.appendChild(matchDiv);
+    const matchInfoDiv = document.createElement("div");
+    matchInfoDiv.className = "match-info";
     const stageSpan = document.createElement("span");
     stageSpan.className = "stage";
     stageSpan.textContent = match.stage;
-    listItem.appendChild(stageSpan);
+    matchInfoDiv.appendChild(stageSpan);
 
-    listItem.innerHTML += ` <span class="team team1" data-country="${match.team1.toLowerCase()}">${
+    matchInfoDiv.innerHTML += ` <span class="team team1" data-country="${match.team1.toLowerCase()}">${
       match.team1
     }</span> `;
     const timeOrScoreSpan = document.createElement("span");
@@ -628,20 +598,22 @@ fixtures.forEach((dateItem) => {
     timeOrScoreSpan.textContent = dateTime
       .toLocaleTimeString("en-GB")
       .slice(0, -3);
-    listItem.appendChild(timeOrScoreSpan);
+    matchInfoDiv.appendChild(timeOrScoreSpan);
 
-    listItem.innerHTML += ` <span class="team team2" data-country="${match.team2.toLowerCase()}">${
+    matchInfoDiv.innerHTML += ` <span class="team team2" data-country="${match.team2.toLowerCase()}">${
       match.team2
     }</span>`;
 
     const venueSpan = document.createElement("span");
     venueSpan.className = "venue";
     venueSpan.textContent = match.venue;
-    listItem.appendChild(venueSpan);
-    const extraInfoSpan = document.createElement("span");
-    extraInfoSpan.className = "extra-info";
-    listItem.appendChild(extraInfoSpan);
+    matchInfoDiv.appendChild(venueSpan);
 
-    ul.appendChild(listItem);
+    matchDiv.appendChild(matchInfoDiv);
+    if (match.extraInfo) {
+      const extraInfo = document.createElement("p");
+      extraInfo.className = "extra-info";
+      matchDiv.appendChild(extraInfo);
+    }
   });
 });

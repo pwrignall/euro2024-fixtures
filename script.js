@@ -567,7 +567,8 @@ function displayScoresAndExtraInfo() {
 const fixturesList = document.getElementById("fixtures-list");
 
 fixtures.forEach((dateItem) => {
-  const date = document.createElement("h2");
+  const date = document.createElement("p");
+  date.className = "date";
   date.textContent = new Date(`${dateItem.date}T14:00Z`)
     .toLocaleDateString("en-GB", {
       weekday: "long",

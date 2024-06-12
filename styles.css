@@ -3,8 +3,9 @@
   --bg-accent: hsl(260, 10%, 12%);
   --fg-accent: hsl(260, 10%, 60%);
   --fg: hsl(260, 10%, 80%);
-  --bold-color: hsl(260, 100%, 50%);
+  --bold-color: hsl(260, 100%, 60%);
   --bold-color-accent: hsl(260, 50%, 60%);
+  font-size: 20px;
 }
 
 a {
@@ -31,7 +32,7 @@ header {
 }
 
 #fixtures-list {
-  width: 720px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -49,19 +50,13 @@ h1 {
   padding: 10px 0;
 }
 
-h2 {
+p.date {
   font-weight: 400;
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   color: var(--fg-accent);
   margin: 2rem 0 0.6rem 0;
-}
-
-@media only screen and (max-width: 720px) {
-  h2 {
-    font-size: 0.6rem;
-  }
 }
 
 .match-info p {
@@ -78,7 +73,7 @@ h2 {
 
 span.venue {
   color: var(--fg-accent);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 span.team1 {
@@ -94,14 +89,14 @@ span.team2 {
 span.time-score {
   text-align: center;
   font-weight: 700;
-  flex: 1 0.5 0;
+  flex: 1 1 0;
 }
 
 span.stage {
   text-align: right;
   text-transform: uppercase;
   color: var(--fg-accent);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 p.extra-info {

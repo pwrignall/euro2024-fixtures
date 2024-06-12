@@ -46,7 +46,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "Poland",
-        team2: "Netherlands",
+        team2: "Holland",
         stage: "Group D",
         venue: "Hamburg",
         time: "13:00",
@@ -198,7 +198,7 @@ const fixtures = [
         score: "",
       },
       {
-        team1: "Netherlands",
+        team1: "Holland",
         team2: "France",
         stage: "Group D",
         venue: "Leipzig",
@@ -282,7 +282,7 @@ const fixtures = [
     date: "2024-06-25",
     fixtures: [
       {
-        team1: "Netherlands",
+        team1: "Holland",
         team2: "Austria",
         stage: "Group D",
         venue: "Berlin",
@@ -356,8 +356,8 @@ const fixtures = [
     date: "2024-06-29",
     fixtures: [
       {
-        team1: "2nd Group A",
-        team2: "2nd Group B",
+        team1: "2<sup>nd</sup> A",
+        team2: "2<sup>nd</sup> B",
         stage: "R16 #1",
         venue: "Berlin",
         time: "16:00",
@@ -365,8 +365,8 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st Group A",
-        team2: "2nd Group C",
+        team1: "1<sup>st</sup> A",
+        team2: "2<sup>nd</sup> C",
         stage: "R16 #2",
         venue: "Dortmund",
         time: "19:00",
@@ -379,8 +379,8 @@ const fixtures = [
     date: "2024-06-30",
     fixtures: [
       {
-        team1: "1st Group C",
-        team2: "3rd Group D/E/F",
+        team1: "1<sup>st</sup> C",
+        team2: "3<sup>rd</sup> D/E/F",
         stage: "R16 #3",
         venue: "Gelsenkirchen",
         time: "16:00",
@@ -388,8 +388,8 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st Group B",
-        team2: "3rd Group A/D/E/F",
+        team1: "1<sup>st</sup> B",
+        team2: "3<sup>rd</sup> A/D/E/F",
         stage: "R16 #4",
         venue: "Cologne",
         time: "19:00",
@@ -402,8 +402,8 @@ const fixtures = [
     date: "2024-07-01",
     fixtures: [
       {
-        team1: "2nd Group D",
-        team2: "2nd Group E",
+        team1: "2<sup>nd</sup> D",
+        team2: "2<sup>nd</sup> E",
         stage: "R16 #5",
         venue: "Düsseldorf",
         time: "16:00",
@@ -411,8 +411,8 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st Group F",
-        team2: "3rd Group A/B/C",
+        team1: "1<sup>st</sup> F",
+        team2: "3<sup>rd</sup> A/B/C",
         stage: "R16 #6",
         venue: "Frankfurt",
         time: "19:00",
@@ -425,8 +425,8 @@ const fixtures = [
     date: "2024-07-02",
     fixtures: [
       {
-        team1: "1st Group E",
-        team2: "3rd Group A/B/C/D",
+        team1: "1<sup>st</sup> E",
+        team2: "3<sup>rd</sup> A/B/C/D",
         stage: "R16 #7",
         venue: "Munich",
         time: "16:00",
@@ -434,8 +434,8 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st Group D",
-        team2: "2nd Group F",
+        team1: "1<sup>st</sup> D",
+        team2: "2<sup>nd</sup> F",
         stage: "R16 #8",
         venue: "Leipzig",
         time: "19:00",
@@ -524,7 +524,7 @@ const fixtures = [
       {
         team1: "Winner SF1",
         team2: "Winner SF2",
-        stage: "Euro 2024 final",
+        stage: "Final",
         venue: "Berlin",
         time: "19:00",
         score: "",

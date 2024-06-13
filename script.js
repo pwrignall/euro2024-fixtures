@@ -46,7 +46,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "Poland",
-        team2: "Holland",
+        team2: "Netherlands",
         stage: "Group D",
         venue: "Hamburg",
         time: "13:00",
@@ -198,7 +198,7 @@ const fixtures = [
         score: "",
       },
       {
-        team1: "Holland",
+        team1: "Netherlands",
         team2: "France",
         stage: "Group D",
         venue: "Leipzig",
@@ -282,7 +282,7 @@ const fixtures = [
     date: "2024-06-25",
     fixtures: [
       {
-        team1: "Holland",
+        team1: "Netherlands",
         team2: "Austria",
         stage: "Group D",
         venue: "Berlin",
@@ -450,7 +450,7 @@ const fixtures = [
       {
         team1: "Winner R16 #4",
         team2: "Winner R16 #2",
-        stage: "QF1",
+        stage: "Quarter-final",
         venue: "Stuttgart",
         time: "16:00",
         score: "",
@@ -459,7 +459,7 @@ const fixtures = [
       {
         team1: "Winner R16 #6",
         team2: "Winner R16 #5",
-        stage: "QF2",
+        stage: "Quarter-final",
         venue: "Hamburg",
         time: "19:00",
         score: "",
@@ -473,7 +473,7 @@ const fixtures = [
       {
         team1: "Winner R16 #1",
         team2: "Winner R16 #3",
-        stage: "QF3",
+        stage: "Quarter-final",
         venue: "Düsseldorf",
         time: "16:00",
         score: "",
@@ -482,7 +482,7 @@ const fixtures = [
       {
         team1: "Winner R16 #7",
         team2: "Winner R16 #8",
-        stage: "QF4",
+        stage: "Quarter-final",
         venue: "Berlin",
         time: "19:00",
         score: "",
@@ -552,11 +552,15 @@ function displayScoresAndExtraInfo() {
         matchElements[i].lastElementChild.textContent = matches[i].extraInfo;
       }
     } else {
-      const dateTime = new Date(`${matches[i].date}T${matches[i].time}Z`);
-      timeOrScoreSpans[i].textContent = dateTime
-        .toLocaleTimeString("en-GB")
-        .slice(0, -3)
-        .replace(",", "");
+      if (matches[i].score === "") {
+        const dateTime = new Date(`${matches[i].date}T${matches[i].time}Z`);
+        timeOrScoreSpans[i].textContent = dateTime
+          .toLocaleTimeString("en-GB")
+          .slice(0, -3)
+          .replace(",", "");
+      } else {
+        timeOrScoreSpans[i].textContent = "f.t.";
+      }
       if (matches[i].extraInfo) {
         matchElements[i].lastElementChild.textContent = "";
       }
@@ -595,10 +599,6 @@ fixtures.forEach((dateItem) => {
     matchText.innerHTML += ` <span class="team team1">${match.team1}</span> `;
     const timeOrScoreSpan = document.createElement("span");
     timeOrScoreSpan.className = "time-score";
-    const dateTime = new Date(`${dateItem.date}T${match.time}Z`);
-    timeOrScoreSpan.textContent = dateTime
-      .toLocaleTimeString("en-GB")
-      .slice(0, -3);
     matchText.appendChild(timeOrScoreSpan);
 
     matchText.innerHTML += ` <span class="team team2" data-country="${match.team2.toLowerCase()}">${
@@ -618,3 +618,5 @@ fixtures.forEach((dateItem) => {
     }
   });
 });
+
+displayScoresAndExtraInfo();

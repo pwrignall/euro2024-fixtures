@@ -5,6 +5,7 @@
   --fg: hsl(260, 10%, 20%);
   --bold-color: hsl(260, 100%, 40%);
   --bold-color-accent: hsl(260, 50%, 40%);
+  --form-color: hsl(260, 100%, 60%);
   font-size: 20px;
 }
 
@@ -22,6 +23,7 @@
     --fg: hsl(260, 10%, 80%);
     --bold-color: hsl(260, 100%, 60%);
     --bold-color-accent: hsl(260, 50%, 60%);
+    --form-color: hsl(260, 100%, 80%);
   }
 }
 
@@ -51,6 +53,50 @@ header {
   top: 0;
   z-index: 999;
   font-size: 0.8rem;
+}
+
+/* https://moderncss.dev/pure-css-custom-checkbox-style/ */
+.form-control {
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.6em;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--bg-accent);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.2em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 60ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-color);
+  clip-path: polygon(0 45%, 25% 45%, 46% 73%, 75% 0, 100% 0, 60% 100%, 35% 100%);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+  outline: max(1px, 0.1em) solid var(--fg-accent);
+  outline-offset: max(1px, 0.1em);
 }
 
 #header-elements {

@@ -1,15 +1,27 @@
 :root {
-  --bg: hsl(260, 10%, 10%);
-  --bg-accent: hsl(260, 10%, 12%);
-  --fg-accent: hsl(260, 10%, 60%);
-  --fg: hsl(260, 10%, 80%);
-  --bold-color: hsl(260, 100%, 60%);
-  --bold-color-accent: hsl(260, 50%, 60%);
+  --bg: hsl(260, 10%, 99%);
+  --bg-accent: hsl(260, 10%, 98%);
+  --fg-accent: hsl(260, 10%, 50%);
+  --fg: hsl(260, 10%, 20%);
+  --bold-color: hsl(260, 100%, 40%);
+  --bold-color-accent: hsl(260, 50%, 40%);
+  font-size: 20px;
 }
 
 @media screen and (max-width: 720px) {
   :root {
     font-size: 14px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(260, 10%, 10%);
+    --bg-accent: hsl(260, 10%, 12%);
+    --fg-accent: hsl(260, 10%, 65%);
+    --fg: hsl(260, 10%, 80%);
+    --bold-color: hsl(260, 100%, 60%);
+    --bold-color-accent: hsl(260, 50%, 60%);
   }
 }
 
@@ -23,7 +35,8 @@ a:visited {
 }
 
 body {
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 0;
   background-color: var(--bg);
   color: var(--fg);

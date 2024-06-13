@@ -513,7 +513,7 @@ const fixtures = [
         stage: "Semi-final",
         venue: "Dortmund",
         time: "19:00",
-        score: "0-0",
+        score: "",
         extraInfo: "",
       },
     ],
@@ -576,6 +576,7 @@ fixtures.forEach((dateItem) => {
       month: "long",
       day: "numeric",
     })
+    .slice(0, -5)
     .replace(",", "");
   fixturesList.appendChild(date);
 

@@ -592,9 +592,7 @@ fixtures.forEach((dateItem) => {
     stageSpan.textContent = match.stage;
     matchText.appendChild(stageSpan);
 
-    matchText.innerHTML += ` <span class="team team1" data-country="${match.team1.toLowerCase()}">${
-      match.team1
-    }</span> `;
+    matchText.innerHTML += ` <span class="team team1">${match.team1}</span> `;
     const timeOrScoreSpan = document.createElement("span");
     timeOrScoreSpan.className = "time-score";
     const dateTime = new Date(`${dateItem.date}T${match.time}Z`);

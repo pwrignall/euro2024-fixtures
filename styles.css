@@ -89,32 +89,34 @@ p.date {
   flex: 1 1 0;
 }
 
+span.stage {
+  text-align: right;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+  font-size: 0.7rem;
+}
+
 span.venue {
   color: var(--fg-accent);
   font-size: 0.7rem;
 }
 
+span.team {
+  flex: 1.5 1 0;
+}
+
 span.team1 {
   text-align: right;
-  flex: 1.5 1 0;
 }
 
 span.team2 {
   text-align: left;
-  flex: 1.5 1 0;
 }
 
 span.time-score {
   text-align: center;
   font-weight: 700;
   flex: 1 1 0;
-}
-
-span.stage {
-  text-align: right;
-  text-transform: uppercase;
-  color: var(--fg-accent);
-  font-size: 0.7rem;
 }
 
 p.extra-info {

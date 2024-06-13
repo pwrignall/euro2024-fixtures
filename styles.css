@@ -56,7 +56,7 @@ header {
 #header-elements {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   max-width: 720px;
   margin: 0 auto;
 }
@@ -104,13 +104,13 @@ span.stage {
   text-align: right;
   text-transform: uppercase;
   color: var(--fg-accent);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   flex: 1 1 0;
 }
 
 span.venue {
   color: var(--fg-accent);
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   flex: 1 1 0;
 }
 

@@ -23,7 +23,6 @@
     --fg: hsl(260, 10%, 80%);
     --bold-color: hsl(260, 100%, 60%);
     --bold-color-accent: hsl(260, 50%, 60%);
-    --form-color: hsl(260, 100%, 80%);
   }
 }
 
@@ -80,14 +79,20 @@ input[type="checkbox"] {
   place-content: center;
 }
 
+input[type="checkbox"]:checked {
+  background-color: var(--form-color);
+}
+
+
 input[type="checkbox"]::before {
   content: "";
-  width: 0.65em;
-  height: 0.65em;
+  width: 0.85em;
+  height: 0.85em;
+  border-radius: 0.05em;
   transform: scale(0);
   transition: 60ms transform ease-in-out;
-  box-shadow: inset 1em 1em var(--form-color);
-  clip-path: polygon(0 45%, 25% 45%, 46% 73%, 75% 0, 100% 0, 60% 100%, 35% 100%);
+  background-color: var(--form-color);
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23fff%22%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%202%202%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20d%3D%22M1.761%200.606%201.502%200.348a0.048%200.048%200%200%200%20-0.068%200L0.748%201.034l-0.182%20-0.182a0.048%200.048%200%200%200%20-0.068%200L0.239%201.111a0.048%200.048%200%200%200%200%200.068L0.712%201.652a0.048%200.048%200%200%200%200.034%200.014c0.001%200%200.001%200%200.002%200%200%200%200.001%200%200.002%200%200.012%200%200.025%20-0.005%200.034%20-0.014l0.977%20-0.977a0.048%200.048%200%200%200%200%20-0.068%22%2F%3E%3C%2Fsvg%3E");
 }
 
 input[type="checkbox"]:checked::before {

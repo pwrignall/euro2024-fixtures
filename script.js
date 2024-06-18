@@ -108,7 +108,7 @@ const fixtures = [
         stage: "Group F",
         venue: "Dortmund",
         time: "16:00",
-        score: "",
+        score: "3 - 1",
       },
       {
         team1: "Portugal",

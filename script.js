@@ -216,7 +216,7 @@ const fixtures = [
         stage: "Group F",
         venue: "Hamburg",
         time: "13:00",
-        score: "",
+        score: "1 - 1",
       },
       {
         team1: "Turkey",
@@ -224,7 +224,7 @@ const fixtures = [
         stage: "Group F",
         venue: "Dortmund",
         time: "16:00",
-        score: "",
+        score: "0 - 3",
       },
       {
         team1: "Belgium",
@@ -232,7 +232,7 @@ const fixtures = [
         stage: "Group E",
         venue: "Köln",
         time: "19:00",
-        score: "",
+        score: "2 - 0",
       },
     ],
   },

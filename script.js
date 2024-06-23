@@ -245,7 +245,7 @@ const fixtures = [
         stage: "Group A",
         venue: "Frankfurt",
         time: "19:00",
-        score: "",
+        score: "1 - 1",
       },
       {
         team1: "Scotland",
@@ -253,7 +253,7 @@ const fixtures = [
         stage: "Group A",
         venue: "Stuttgart",
         time: "19:00",
-        score: "",
+        score: "0 - 1",
       },
     ],
   },
@@ -356,7 +356,7 @@ const fixtures = [
     date: "2024-06-29",
     fixtures: [
       {
-        team1: "2nd A",
+        team1: "Switzerland",
         team2: "2nd B",
         stage: "R16 #1",
         venue: "Berlin",
@@ -365,7 +365,7 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st A",
+        team1: "Germany",
         team2: "2nd C",
         stage: "R16 #2",
         venue: "Dortmund",

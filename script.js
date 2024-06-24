@@ -388,7 +388,7 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st B",
+        team1: "Spain",
         team2: "3rd A/D/E/F",
         stage: "R16 #4",
         venue: "Köln",
@@ -411,7 +411,7 @@ const fixtures = [
         extraInfo: "",
       },
       {
-        team1: "1st F",
+        team1: "Portugal",
         team2: "3rd A/B/C",
         stage: "R16 #6",
         venue: "Frankfurt",

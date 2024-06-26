@@ -324,7 +324,7 @@ const fixtures = [
         stage: "Group E",
         venue: "Frankfurt",
         time: "16:00",
-        score: "",
+        score: "1 - 1",
       },
       {
         team1: "Ukraine",
@@ -332,7 +332,7 @@ const fixtures = [
         stage: "Group E",
         venue: "Stuttgart",
         time: "16:00",
-        score: "",
+        score: "0 - 0",
       },
       {
         team1: "Czechia",
@@ -340,7 +340,7 @@ const fixtures = [
         stage: "Group F",
         venue: "Hamburg",
         time: "19:00",
-        score: "",
+        score: "1 - 2",
       },
       {
         team1: "Georgia",
@@ -348,7 +348,7 @@ const fixtures = [
         stage: "Group F",
         venue: "Gelsenkirchen",
         time: "19:00",
-        score: "",
+        score: "2 - 0",
       },
     ],
   },
@@ -380,7 +380,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "England",
-        team2: "3rd D/E/F",
+        team2: "Slovakia",
         stage: "R16 #3",
         venue: "Gelsenkirchen",
         time: "16:00",
@@ -389,7 +389,7 @@ const fixtures = [
       },
       {
         team1: "Spain",
-        team2: "3rd A/D/E/F",
+        team2: "Georgia",
         stage: "R16 #4",
         venue: "Köln",
         time: "19:00",
@@ -403,7 +403,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "France",
-        team2: "2nd E",
+        team2: "Belgium",
         stage: "R16 #5",
         venue: "Düsseldorf",
         time: "16:00",
@@ -412,7 +412,7 @@ const fixtures = [
       },
       {
         team1: "Portugal",
-        team2: "3rd A/B/C",
+        team2: "Slovenia",
         stage: "R16 #6",
         venue: "Frankfurt",
         time: "19:00",
@@ -425,8 +425,8 @@ const fixtures = [
     date: "2024-07-02",
     fixtures: [
       {
-        team1: "1st E",
-        team2: "3rd A/B/C/D",
+        team1: "Romania",
+        team2: "Netherlands",
         stage: "R16 #7",
         venue: "München",
         time: "16:00",
@@ -435,7 +435,7 @@ const fixtures = [
       },
       {
         team1: "Austria",
-        team2: "2nd F",
+        team2: "Turkey",
         stage: "R16 #8",
         venue: "Leipzig",
         time: "19:00",

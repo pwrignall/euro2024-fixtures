@@ -472,7 +472,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "Switzerland",
-        team2: "Winner R16 #3",
+        team2: "England",
         stage: "Quarters",
         venue: "Düsseldorf",
         time: "16:00",

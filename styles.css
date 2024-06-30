@@ -186,7 +186,7 @@ span.time-score {
 p.extra-info {
   text-align: center;
   font-style: italic;
-  margin: 0;
+  margin: 0.3rem 0 0.5rem 0;
   color: var(--fg-accent);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }

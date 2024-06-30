@@ -384,8 +384,8 @@ const fixtures = [
         stage: "R16 #3",
         venue: "Gelsenkirchen",
         time: "16:00",
-        score: "",
-        extraInfo: "",
+        score: "1 - 1",
+        extraInfo: "England win 2 - 1 a.e.t.",
       },
       {
         team1: "Spain",

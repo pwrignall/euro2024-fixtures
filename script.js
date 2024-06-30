@@ -361,7 +361,7 @@ const fixtures = [
         stage: "R16 #1",
         venue: "Berlin",
         time: "16:00",
-        score: "",
+        score: "2 - 0",
         extraInfo: "",
       },
       {
@@ -370,7 +370,7 @@ const fixtures = [
         stage: "R16 #2",
         venue: "Dortmund",
         time: "19:00",
-        score: "",
+        score: "2 - 0",
         extraInfo: "",
       },
     ],
@@ -449,7 +449,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "Winner R16 #4",
-        team2: "Winner R16 #2",
+        team2: "Germany",
         stage: "Quarters",
         venue: "Stuttgart",
         time: "16:00",
@@ -471,7 +471,7 @@ const fixtures = [
     date: "2024-07-06",
     fixtures: [
       {
-        team1: "Winner R16 #1",
+        team1: "Switzerland",
         team2: "Winner R16 #3",
         stage: "Quarters",
         venue: "Düsseldorf",

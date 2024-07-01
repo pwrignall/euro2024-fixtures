@@ -393,7 +393,7 @@ const fixtures = [
         stage: "R16 #4",
         venue: "Köln",
         time: "19:00",
-        score: "",
+        score: "4 - 1",
         extraInfo: "",
       },
     ],
@@ -448,7 +448,7 @@ const fixtures = [
     date: "2024-07-05",
     fixtures: [
       {
-        team1: "Winner R16 #4",
+        team1: "Spain",
         team2: "Germany",
         stage: "Quarters",
         venue: "Stuttgart",

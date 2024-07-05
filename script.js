@@ -453,8 +453,8 @@ const fixtures = [
         stage: "Quarters",
         venue: "Stuttgart",
         time: "16:00",
-        score: "",
-        extraInfo: "",
+        score: "1 - 1",
+        extraInfo: "Spain win 2 - 1 a.e.t.",
       },
       {
         team1: "Portugal",

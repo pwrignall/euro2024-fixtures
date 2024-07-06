@@ -476,8 +476,8 @@ const fixtures = [
         stage: "Quarters",
         venue: "Düsseldorf",
         time: "16:00",
-        score: "",
-        extraInfo: "",
+        score: "1 - 1",
+        extraInfo: "1 - 1 a.e.t. England win 5 - 3 on pens.",
       },
       {
         team1: "Netherlands",
@@ -485,7 +485,7 @@ const fixtures = [
         stage: "Quarters",
         venue: "Berlin",
         time: "19:00",
-        score: "",
+        score: "2 - 1",
         extraInfo: "",
       },
     ],
@@ -508,8 +508,8 @@ const fixtures = [
     date: "2024-07-10",
     fixtures: [
       {
-        team1: "Winner QF3",
-        team2: "Winner QF4",
+        team1: "England",
+        team2: "Netherlands",
         stage: "Semis",
         venue: "Dortmund",
         time: "19:00",

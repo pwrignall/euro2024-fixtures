@@ -499,7 +499,7 @@ const fixtures = [
         stage: "Semis",
         venue: "München",
         time: "19:00",
-        score: "",
+        score: "2 - 1",
         extraInfo: "",
       },
     ],
@@ -522,7 +522,7 @@ const fixtures = [
     date: "2024-07-14",
     fixtures: [
       {
-        team1: "Winner SF1",
+        team1: "Spain",
         team2: "Winner SF2",
         stage: "Final",
         venue: "Berlin",

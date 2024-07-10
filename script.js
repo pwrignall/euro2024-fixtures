@@ -513,7 +513,7 @@ const fixtures = [
         stage: "Semis",
         venue: "Dortmund",
         time: "19:00",
-        score: "",
+        score: "2 - 1",
         extraInfo: "",
       },
     ],
@@ -523,7 +523,7 @@ const fixtures = [
     fixtures: [
       {
         team1: "Spain",
-        team2: "Winner SF2",
+        team2: "England",
         stage: "Final",
         venue: "Berlin",
         time: "19:00",

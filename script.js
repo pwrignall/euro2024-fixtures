@@ -527,7 +527,7 @@ const fixtures = [
         stage: "Final",
         venue: "Berlin",
         time: "19:00",
-        score: "",
+        score: "2 - 1",
         extraInfo: "",
       },
     ],
